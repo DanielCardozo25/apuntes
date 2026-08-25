@@ -1,0 +1,27 @@
+npm init // iniciar proyecto
+node <nombre> //
+npm run <script>
+npm install
+
+npm install prompt-sync
+npm init -y //no me pregunta nada
+
+Ejercicio ejemplo que devuelve phyton
+name = "goku"
+name.uppen()
+print(name)
+
+click derecho -> abrir en terminal integrada
+consola bash
+
+expressjs
+npm install express
+
+Cada vez que haga cambios debo reiniciar el servidor
+Ctrl + C apagar servidor
+
+node --watch index Permite reiniciar el js
+
+usamos postman
+El 200 es todo OK
+404 not found
