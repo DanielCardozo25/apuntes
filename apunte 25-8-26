@@ -22,6 +22,34 @@ Ctrl + C apagar servidor
 
 node --watch index Permite reiniciar el js
 
-usamos postman
+---> Usamos POSTMAN
 El 200 es todo OK
 404 not found
+
+1-9-2026
+route params personas/4 busca a esa persona
+query params personas?id=4 es para filtros
+personas?rol='std'
+body head o body
+headers
+
+Si uso un if y creo un "return" teniendo dos opciones es conveniente cambiarlo por un else res
+Si hay varias excepciones crear un Throw
+
+idem potencia, es cuando se envia demasiados send en un post y se crean las mismas acciones
+
+Operador termario es el resultado de un x > 0 ? persona +1: 1. <-- Si no existe persona crea el 1ero
+
+...persona es desparramar(spread)
+
+Las acciones en javascrtipt se leen de derecha a izquierda primero las llaves y luego lo de afuera
+persona={persona ..}
+Tomo a persona desectructuro sus propiedades,campo por campo uno en el vector y otro temporal
+
+Version profe
+personas[index] = {
+...req.body,
+id: personas[index].id
+}
+
+No usar splice, es preferible filter
