@@ -1,3 +1,31 @@
+15-9-26
+
+Palabra central base es el  "CRITERIO"
+
+Middleware ->
+              ¿Que es? Una funcion dentro de un archivo
+              ¿Para que sirve? Es un intermediario entre req y resp
+              ¿Como se implementa? (req,res,next) => {...}
+
+Al importar algo lo estoy desectructurando, por lo general lo qu esta puesto entre llaves
+Los middleware van en el post y entre2 parametros siempre en el medio ('/', midlle1, midlle2,middle3, )
+se importa como import {funcion} from '../middleware/middleware.js'  
+
+1) Construir un middleware que muestre la IP del cliente y fecha/hora del servidor
+2) Aplicarlo en rutas que deberían requerir login
+
+nuevas instalaciones: bcrypt jsonwebtoken dotenv
+
+cookies - local storage
+ccleaner
+
+postman -> body -> raw: ingreso el post o get o lo que fuere
+
+./ es para decirle a node situate en esta ruta, sino lo hago lo toma como un modulo
+Si quiero colocar tiempo para que expire una sesion puedo hacerlo en 2h o 15000(15seg)
+
+LEER LIBRERIA PAGINA NODE
+---------------------------
 npm init // iniciar proyecto
 node <nombre> //
 npm run <script>
