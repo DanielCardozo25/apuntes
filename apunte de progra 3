@@ -11,6 +11,10 @@ en js persona.nombre es igual a persona[nombre
 login autorization y bearer <token>
 primero autorization token  -> luego ver el rol
 En las rutas establezco el orden de invocacion de los middleware
+
+El rol del usuario viene por defecto no debe elegirlo al crear la cuenta
+Pregunta de final: ¿identifique una funcion asincrona e indentifique que es? explicar async y await
+si una funcion es async su contructor tambien debe serlo
 -------------------------------
 15-9-26
 
