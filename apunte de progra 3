@@ -1,3 +1,17 @@
+29-9-26
+
+crear 2 middleware: validar rol y validar identidad
+Hay middleware que deben respetar un orden ya que pueden hacer cambios en la req y el resp
+
+':' en un ruta es un parametro que se espera que llegue ej: '/autor/:autorId' llegan en el req al param
+'::1' es el usuario localhost
+jwt es una cadena de texto con 3 partes: Header(Encabezado), Payload(Carga util) y signature(firma) url: JWT.io
+
+en js persona.nombre es igual a persona[nombre
+login autorization y bearer <token>
+primero autorization token  -> luego ver el rol
+En las rutas establezco el orden de invocacion de los middleware
+-------------------------------
 15-9-26
 
 Palabra central base es el  "CRITERIO"
@@ -5,7 +19,8 @@ Palabra central base es el  "CRITERIO"
 Middleware ->
               ¿Que es? Una funcion dentro de un archivo
               ¿Para que sirve? Es un intermediario entre req y resp
-              ¿Como se implementa? (req,res,next) => {...}
+              ¿Como se implementa? (req,res,next) => {...} agrega un parametro next si es que lo necesita
+              Se usa para hacer registros en el servidor
 
 Al importar algo lo estoy desectructurando, por lo general lo qu esta puesto entre llaves
 Los middleware van en el post y entre2 parametros siempre en el medio ('/', midlle1, midlle2,middle3, )
