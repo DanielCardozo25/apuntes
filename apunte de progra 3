@@ -1,3 +1,16 @@
+06-10-26
+
+Mongodb compass desde mongodb
+mongodb atlas -> database -> clusters(para hostear)->create
+mongoose
+npm i mongoose
+hacer un import en app.js
+import mongoose from 'mongoose';
+
+anda asta modelos "Ubicación en la carpeta" y créame un modelo de mongoose para usuario, según este documento de muestra de mongoDB
+anda a @ubicacion/ y refractaria todos los controladores para que trabajen con el modelo de usuario mongoose ubicado en @ubicacion/
+
+------------------
 29-9-26
 
 crear 2 middleware: validar rol y validar identidad
