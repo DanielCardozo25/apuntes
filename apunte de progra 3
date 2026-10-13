@@ -17,6 +17,14 @@ render->new->web server
 Environment Variables En esta parte debo colocar mongodb_uri (con la url), jwt que cree un hash.
 En esta parte no va el puerto
 
+mongodb atlas debo crear un cluster.
+cluster->connect->compass copio la cadena y lo coloco en compass
+
+mongo solo da acceso a ciertas conexiones, debo ver data base and ip access.
+Esto sirve para acceder a mi base de datos desde la nube
+la ip de render la saco desde un nivel atras y hay un boton connect y son 2 ips para conectarme a la base de datos
+
+enviroment de render. Vamos a setting -> enviroment y debo colocar las cadenas de conexion, ponemos la cadena de atlas + '/' y el nombre de la base de datos
 ----------------
 06-10-26
 
