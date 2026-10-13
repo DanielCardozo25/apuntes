@@ -1,3 +1,23 @@
+13-10-26
+
+Pregunta de examen: ¿donde hay una destructuracion de array?, para que son los ..., asincronismo
+
+Aplicar practicas de entorno para ser llevado a produccion
+
+crear .env cada vez que utilizo el proyecto en otro lugar
+ej:
+app.listen(process.env.PORT, ()
+await mongoose.connect(process.env.MONGODB_URI);
+
+postman si lo pongo en produccion debo cambiar el enviroment +
+
+render funciona como entorno de servidor tradicional
+render->new->web server
+
+Environment Variables En esta parte debo colocar mongodb_uri (con la url), jwt que cree un hash.
+En esta parte no va el puerto
+
+----------------
 06-10-26
 
 Mongodb compass desde mongodb
